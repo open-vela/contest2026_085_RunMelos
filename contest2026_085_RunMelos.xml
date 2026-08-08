@@ -10,6 +10,7 @@
 
   <project path="contest2026_085_RunMelos" name="contest2026_085_RunMelos">
     <linkfile src="app/hello_app" dest="packages/demos/contest2026_085_hello_app"/>
+    <linkfile src="app/velamotion_ui" dest="packages/demos/contest2026_085_velamotion_ui"/>
     <linkfile src="quickapp/hello_quickapp" dest="packages/apps/contest2026_085_hello_quickapp"/>
     <linkfile src="board/contest_board" dest="vendor/openvela/boards/contest2026_085_board"/>
   </project>

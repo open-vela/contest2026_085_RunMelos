@@ -1,0 +1,9 @@
+config VELAMOTION_UI
+	bool "VelaMotion LVGL smart gadget demo"
+	default y
+	depends on GRAPHICS_LVGL && LV_USE_NUTTX && LV_USE_NUTTX_LCD
+	depends on LV_COLOR_DEPTH_16
+	depends on INPUT_TOUCHSCREEN
+	---help---
+		Run the VelaMotion portrait UI on the NuttX LVGL LCD and
+		touchscreen ports. The demo uses /dev/lcd0 and /dev/input0.
